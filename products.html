@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prep - Products</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Prep</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="store-container">
+      <aside id="filters">
+        <h3>Filter by Category:</h3>
+        <label><input type="checkbox" class="filter-checkbox" value="supplement" checked /> Supplements</label>
+        <label><input type="checkbox" class="filter-checkbox" value="equipment" checked /> Equipment</label>
+        <label><input type="checkbox" class="filter-checkbox" value="apparel" checked /> Apparel</label>
+      </aside>
+
+      <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list" id="product-list"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Prep. All rights reserved.</p>
+  </footer>
+
+  <script src="script-product.js"></script>
+</body>
+</html>
